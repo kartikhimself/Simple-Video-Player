@@ -1,0 +1,47 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Video Player Lite</string>
+
+    <string name="storage_permission_denied">È stato negato il permesso di accedere allo spazio di archiviazione!\n Non siamo in grado di ottenere i tuoi video!</string>
+    <string name="action_settings">impostazioni</string>
+    <string name="action_rename">Rinominare</string>
+    <string name="action_delete">Elimina</string>
+
+    <string name="action_info">Informazioni</string>
+    <string name="action_play">Giocare</string>
+    <string name="action_play_popup">Gioca a Popup</string>
+    <string name="action_play_background">Audio di sfondo</string>
+    <string name="action_sort">Ordinare</string>
+    <string name="action_sort_AZ">A-Z</string>
+    <string name="action_sortZA">Z-A</string>
+    <string name="action_sort_size">taglia</string>
+    <string name="action_sort_total_videos">Total Videos</string>
+    <string name="search_title">Ricerca</string>
+    <string name="action_view_by_list">Visualizza per lista</string>
+    <string name="action_view_by_grid">Visualizza per griglia</string>
+    <string name="action_share">Condividere</string>
+
+    <string name="folder">Cartella</string>
+    <string name="sleep_timer">Sveglia</string>
+    <string name="about">Di</string>
+
+    <string name="confirm_cancel">Annulla</string>
+    <string name="enter_new_name">Inserisci il nuovo nome</string>
+    <string name="confirm_delete">Elimina</string>
+    <string name="confirm">Sei sicuro di voler eliminare </string>
+    <string name="delete_video">Elimina video ?</string>
+    <string name="properties">Proprietà</string>
+    <string name="file_location">Posizione</string>
+    <string name="format">Formato</string>
+    <string name="file_size">Taglia</string>
+    <string name="duration">Durata</string>
+    <string name="resolution">Risoluzione</string>
+    <string name="date_added">Data</string>
+
+    <string name="video">Videos</string>
+    <string name="menu">Menu</string>
+    <string name="now_playing">Ora giocando</string>
+    <string name="no_video_playing">Nessun video è riprodotto</string>
+    <string name="fileNameExist">Questo nome di file esiste :(</string>
+    <string name="ThemeColor">Tema Colore</string>
+    <string name="txt_sleep_app">Un\'estensione aiuta a disattivare la musica, i video vengono riprodotti sul dispositivo, funzionano bene con YouTube, Spotify, Google Music e tutta la musica, l\'app video.</string>
+</resources>

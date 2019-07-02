@@ -1,0 +1,47 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Video Player Lite</string>
+
+    <string name="storage_permission_denied">L\'autorisation d\'accès au stockage a été refusée!\n Nous ne pouvons pas obtenir vos vidéos</string>
+    <string name="action_settings">Réglages</string>
+    <string name="action_rename">Renommer</string>
+    <string name="action_delete">Effacer</string>
+
+    <string name="action_info">Info</string>
+    <string name="action_play">Jouer</string>
+    <string name="action_play_popup">Jouer Popup</string>
+    <string name="action_play_background">Audio de fond</string>
+    <string name="action_sort">Trier</string>
+    <string name="action_sort_AZ">A-Z</string>
+    <string name="action_sortZA">Z-A</string>
+    <string name="action_sort_size">Taille</string>
+    <string name="action_sort_total_videos">Nombre total de vidéos</string>
+    <string name="search_title">Chercher</string>
+    <string name="action_view_by_list">Voir par liste</string>
+    <string name="action_view_by_grid">Voir par grille</string>
+    <string name="action_share">Partager</string>
+
+    <string name="folder">Dossier</string>
+    <string name="sleep_timer">Minuterie de sommeil</string>
+    <string name="about">Sur</string>
+
+    <string name="confirm_cancel">Annuler</string>
+    <string name="enter_new_name">Entrer un nouveau nom</string>
+    <string name="confirm_delete">Effacer</string>
+    <string name="confirm">Etes-vous sûr que vous voulez supprimer </string>
+    <string name="delete_video">Supprimer la vidéo?</string>
+    <string name="properties">Propriétés</string>
+    <string name="file_location">Emplacement</string>
+    <string name="format">Format</string>
+    <string name="file_size">Taille</string>
+    <string name="duration">Durée</string>
+    <string name="resolution">Résolution</string>
+    <string name="date_added">Rendez-vous amoureux</string>
+
+    <string name="video">Vidéos</string>
+    <string name="menu">Lecture en cours</string>
+    <string name="now_playing">Aucune vidéo n\'est jouée</string>
+    <string name="no_video_playing">Ce nom de fichier existe déjà :(</string>
+    <string name="fileNameExist">This file name is existed :(</string>
+    <string name="ThemeColor">Couleur du thème</string>
+    <string name="txt_sleep_app">Une extension aide à désactiver la musique, la vidéo est en cours de lecture sur votre appareil, fonctionne bien avec Youtube, Spotify, Google Musique et toute la musique, application vidéo.</string>
+</resources>

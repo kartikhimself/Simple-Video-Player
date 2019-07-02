@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main_container"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/black"
+    android:orientation="vertical">
+    <com.alexvasilkov.gestures.views.GestureFrameLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/frame_item_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:gest_maxZoom="1.5">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <com.google.android.exoplayer2.ui.PlayerView
+                android:id="@+id/player_view"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:keepScreenOn="true"
+                app:resize_mode="fit"
+                app:use_controller="false"/>
+
+        </FrameLayout>
+    </com.alexvasilkov.gestures.views.GestureFrameLayout>
+    <RelativeLayout
+        android:id="@+id/layout_all_control_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <RelativeLayout
+            android:id="@+id/layout_control_top"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:background="@color/colorPrimaryDark"
+            android:layout_alignParentTop="true">
+            <net.steamcrafted.materialiconlib.MaterialIconView
+                android:id="@+id/btnFullScreenMode"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_gravity="center"
+                android:scaleType="center"
+                app:materialIcon="fullscreen"
+                app:materialIconColor="@color/white"
+                app:materialIconSize="25dp" />
+
+            <!--<ImageView-->
+                <!--android:id="@+id/btnFullScreenMode"-->
+                <!--android:layout_width="20dp"-->
+                <!--android:layout_height="20dp"-->
+                <!--android:layout_alignParentStart="true"-->
+                <!--android:layout_alignParentTop="true"-->
+                <!--android:src="@drawable/ic_full_screen_white"/>-->
+
+            <net.steamcrafted.materialiconlib.MaterialIconView
+                android:id="@+id/btnResize"
+                android:layout_marginStart="5dp"
+                android:layout_toEndOf="@id/btnFullScreenMode"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_gravity="center"
+                android:scaleType="center"
+                app:materialIcon="arrow_expand_horizontal"
+                app:materialIconColor="@color/white"
+                app:materialIconSize="25dp" />
+
+            <!--<ImageView-->
+                <!--android:id="@+id/btnResize"-->
+                <!--android:layout_toEndOf="@id/btnFullScreenMode"-->
+                <!--android:layout_marginStart="20dp"-->
+                <!--android:layout_width="20dp"-->
+                <!--android:layout_height="20dp"-->
+                <!--android:layout_alignParentTop="true"-->
+                <!--android:src="@drawable/ic_resize_popup"/>-->
+            <net.steamcrafted.materialiconlib.MaterialIconView
+                android:id="@+id/btnClosePopUp"
+                android:layout_alignParentEnd="true"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_gravity="center"
+                android:scaleType="center"
+                app:materialIcon="close"
+                app:materialIconColor="@color/white"
+                app:materialIconSize="25dp" />
+
+            <!--<ImageView-->
+                <!--android:id="@+id/btnClosePopUp"-->
+                <!--android:layout_width="20dp"-->
+                <!--android:layout_height="20dp"-->
+                <!--android:layout_alignParentEnd="true"-->
+                <!--android:layout_alignParentTop="true"-->
+                <!--android:src="@drawable/ic_btn_delete"/>-->
+        </RelativeLayout>
+
+        <ImageButton
+            android:id="@+id/btnPlayPause"
+            android:background="@color/transparent"
+            android:padding="5dp"
+            android:layout_centerInParent="true"
+            android:visibility="gone"
+            android:layout_width="40dp"
+            android:layout_height="40dp" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

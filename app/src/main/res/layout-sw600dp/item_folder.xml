@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="1dp"
+    android:padding="2dp">
+
+    <RelativeLayout
+        android:id="@+id/layout_left"
+        android:layout_width="100dp"
+        android:layout_height="100dp">
+        <net.steamcrafted.materialiconlib.MaterialIconView
+            android:id="@+id/btnFullScreenMode"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:scaleType="center"
+            app:materialIcon="folder"
+            app:materialIconColor="?attr/text_color"
+            app:materialIconSize="60dp" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_toEndOf="@id/layout_left"
+        android:layout_toStartOf="@id/imageViewOption">
+        <TextView
+            android:id="@+id/txtFolderName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="3dp"
+            android:layout_marginBottom="3dp"
+            android:maxLines="2"
+            android:text="Download"
+            android:textSize="19sp"
+            android:textStyle="bold"
+            android:textColor="?attr/text_color"
+            />
+
+        <TextView
+            android:id="@+id/txtFolderPath"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="3dp"
+            android:layout_marginBottom="3dp"
+            android:maxLines="2"
+            android:text="hello this is the path of the video"
+            android:textSize="15sp"
+            android:layout_below="@id/txtFolderName"
+            android:textColor="?attr/text_color"
+            />
+
+        <TextView
+            android:id="@+id/txtFolderSize"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="3dp"
+            android:layout_marginBottom="3dp"
+            android:maxLines="2"
+            android:text="20 video - 5 Gb"
+            android:textSize="15sp"
+            android:layout_below="@id/txtFolderPath"
+            android:textColor="?attr/text_color"
+            />
+
+
+    </RelativeLayout>
+
+    <com.sdcode.videoplayer.customizeUI.NonScrollImageView
+        android:id="@+id/imageViewOption"
+        android:layout_width="40dp"
+        android:layout_height="match_parent"
+        android:layout_marginEnd="5dp"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:padding="7dp"
+        app:materialIcon="dots_vertical"
+        app:materialIconColor="?attr/text_color"
+        app:materialIconSize="20dp"/>
+
+
+
+</RelativeLayout>

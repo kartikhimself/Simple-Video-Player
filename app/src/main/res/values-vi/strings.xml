@@ -1,0 +1,47 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Video Player Lite</string>
+
+    <string name="storage_permission_denied">Quyền truy cập lưu trữ đã bị từ chối!\n Chúng tôi không thể truy cập kho video của bạn!</string>
+    <string name="action_settings">Cài Đặt</string>
+    <string name="action_rename">Đổi Tên</string>
+    <string name="action_delete">Xoá</string>
+
+    <string name="action_info">Thông Tin</string>
+    <string name="action_play">Xem</string>
+    <string name="action_play_popup">Xem Dạng Popup</string>
+    <string name="action_play_background">Phát Nhạc Nền</string>
+    <string name="action_sort">Sắp xếp</string>
+    <string name="action_sort_AZ">A-Z</string>
+    <string name="action_sortZA">Z-A</string>
+    <string name="action_sort_size">size</string>
+    <string name="action_sort_total_videos">Tổng Số Video</string>
+    <string name="search_title">Tìm Kiếm</string>
+    <string name="action_view_by_list">Dạng Danh Sách</string>
+    <string name="action_view_by_grid">Dạng Lưới</string>
+    <string name="action_share">Share</string>
+
+    <string name="folder">Thư Mục</string>
+    <string name="sleep_timer">Hẹn Giờ</string>
+    <string name="about">Về Chúng Tôi</string>
+
+    <string name="confirm_cancel">Huỷ</string>
+    <string name="enter_new_name">Nhập Tên Mới</string>
+    <string name="confirm_delete">Xoá</string>
+    <string name="confirm">Bạn Có Chắc Muốn Xoá </string>
+    <string name="delete_video">Xoá Video ?</string>
+    <string name="properties">Thông Tin</string>
+    <string name="file_location">Nơi Lưu Trữ</string>
+    <string name="format">Định Dạng</string>
+    <string name="file_size">Kích Thướt</string>
+    <string name="duration">Độ Dài</string>
+    <string name="resolution">Độ Phân Giải</string>
+    <string name="date_added">Ngày</string>
+
+    <string name="video">Videos</string>
+    <string name="menu">Danh Sách</string>
+    <string name="now_playing">Đang Phát</string>
+    <string name="no_video_playing">Không Có Video Nào Đang Được Phát</string>
+    <string name="fileNameExist">Tên Video Này Đã Tồn Tại :(</string>
+    <string name="ThemeColor">Tông Màu</string>
+    <string name="txt_sleep_app">Tiện ích mở rộng giúp tắt nhạc, video đang phát trên thiết bị của bạn, hoạt động tốt với Youtube, Spotify, Google Music và tất cả nhạc, ứng dụng video.</string>
+</resources>

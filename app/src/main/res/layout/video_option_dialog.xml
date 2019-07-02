@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="?attr/background_color"
+    android:padding="3dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/option_play_popup"
+        android:background="@color/transparent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp">
+
+        <net.steamcrafted.materialiconlib.MaterialIconView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:padding="6dp"
+            app:materialIcon="arrange_bring_forward"
+            app:materialIconColor="?attr/text_color"
+            app:materialIconSize="20dp" />
+
+        <TextView
+            android:layout_marginStart="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/action_play_popup"
+            android:textColor="?attr/text_color"
+            android:textSize="16sp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/option_play_audio"
+        android:background="@color/transparent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp">
+
+        <net.steamcrafted.materialiconlib.MaterialIconView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:padding="6dp"
+            app:materialIcon="music_note"
+            app:materialIconColor="?attr/text_color"
+            app:materialIconSize="20dp" />
+
+        <TextView
+            android:layout_marginStart="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/action_play_background"
+            android:textColor="?attr/text_color"
+            android:textSize="16sp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/option_share"
+        android:background="@color/transparent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp">
+
+        <net.steamcrafted.materialiconlib.MaterialIconView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:padding="6dp"
+            app:materialIcon="share"
+            app:materialIconColor="?attr/text_color"
+            app:materialIconSize="20dp" />
+
+        <TextView
+            android:layout_marginStart="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/action_share"
+            android:textColor="?attr/text_color"
+            android:textSize="16sp" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/option_rename"
+        android:background="@color/transparent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp">
+
+        <net.steamcrafted.materialiconlib.MaterialIconView
+
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:padding="6dp"
+            app:materialIcon="rename_box"
+            app:materialIconColor="?attr/text_color"
+            app:materialIconSize="20dp" />
+
+        <TextView
+            android:layout_marginStart="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/action_rename"
+            android:textColor="?attr/text_color"
+            android:textSize="16sp" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/option_info"
+        android:background="@color/transparent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp">
+
+        <net.steamcrafted.materialiconlib.MaterialIconView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:padding="6dp"
+            app:materialIcon="information"
+            app:materialIconColor="?attr/text_color"
+            app:materialIconSize="20dp" />
+
+        <TextView
+            android:layout_marginStart="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/properties"
+            android:textColor="?attr/text_color"
+            android:textSize="16sp" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/option_delete"
+        android:background="@color/transparent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp">
+
+        <net.steamcrafted.materialiconlib.MaterialIconView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:padding="6dp"
+            app:materialIcon="delete"
+            app:materialIconColor="?attr/text_color"
+            app:materialIconSize="20dp" />
+
+        <TextView
+            android:layout_marginStart="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/action_delete"
+            android:textColor="?attr/text_color"
+            android:textSize="16sp" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

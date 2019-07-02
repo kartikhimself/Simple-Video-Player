@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2016 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_alignParentBottom="true"
+    android:layout_gravity="bottom"
+    android:background="@color/transparent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="165dp"
+        android:background="@color/black1"
+        android:alpha="0.3"/>
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="50dp"
+        android:layout_height="40dp"
+        android:background="@color/transparent"
+        android:layout_marginTop="30dp"
+        android:theme="@style/AppTheme.AppBarOverlay"
+        app:popupTheme="@style/AppTheme.PopupOverlay"
+        app:titleTextAppearance="@style/Toolbar.TitleText" />
+    <RelativeLayout
+        android:id="@+id/layout_title_top"
+        android:layout_width="match_parent"
+        android:layout_below="@id/toolbar"
+        android:layout_height="65dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginStart="10dp">
+
+
+        <net.cachapa.expandablelayout.ExpandableLayout
+            android:id="@+id/expandable_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_toStartOf="@id/btn_btnExpandControl"
+            android:layout_centerVertical="true"
+            android:orientation="horizontal"
+            app:el_duration="500"
+            app:el_expanded="true"
+            app:el_parallax="0.5">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+                    <net.steamcrafted.materialiconlib.MaterialIconView
+                        android:id="@+id/btn_bgAudio"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_centerInParent="true"
+                        android:padding="12dp"
+                        app:materialIcon="music_note"
+                        app:materialIconColor="@color/white"
+                        app:materialIconSize="20dp" />
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+                    <net.steamcrafted.materialiconlib.MaterialIconView
+                        android:id="@+id/btn_popup"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_centerInParent="true"
+                        android:padding="13dp"
+                        app:materialIcon="arrange_bring_forward"
+                        app:materialIconColor="@color/white"
+                        app:materialIconSize="20dp" />
+                </RelativeLayout>
+                <RelativeLayout
+                    android:visibility="gone"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+                    <net.steamcrafted.materialiconlib.MaterialIconView
+                        android:id="@+id/btn_ChromeCast"
+                        android:layout_marginStart="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_centerInParent="true"
+                        android:padding="13dp"
+                        app:materialIcon="cast_connected"
+                        app:materialIconColor="@color/white"
+                        app:materialIconSize="20dp" />
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <net.steamcrafted.materialiconlib.MaterialIconView
+                        android:id="@+id/btn_btnRotation"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_centerInParent="true"
+                        android:padding="14dp"
+                        app:materialIcon="screen_rotation"
+                        app:materialIconColor="@color/white"
+                        app:materialIconSize="20dp" />
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+                    <net.steamcrafted.materialiconlib.MaterialIconView
+                        android:id="@+id/btnVolumes"
+                        android:layout_marginStart="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_centerVertical="true"
+                        android:padding="7dp"
+                        android:layout_alignParentStart="true"
+                        app:materialIcon="volume_medium"
+                        app:materialIconColor="@color/white"
+                        app:materialIconSize="20dp" />
+
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+                    <net.steamcrafted.materialiconlib.MaterialIconView
+                        android:id="@+id/btnBrightness"
+                        android:layout_marginStart="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="13dp"
+                        android:layout_centerVertical="true"
+                        android:layout_alignParentStart="true"
+                        app:materialIcon="brightness_7"
+                        app:materialIconColor="@color/white"
+                        app:materialIconSize="20dp" />
+                </RelativeLayout>
+
+            </LinearLayout>
+
+        </net.cachapa.expandablelayout.ExpandableLayout>
+
+        <net.steamcrafted.materialiconlib.MaterialIconView
+            android:id="@+id/btn_btnExpandControl"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_toStartOf="@id/layout_end"
+            android:layout_marginEnd="10dp"
+            android:layout_marginStart="0dp"
+            android:padding="3dp"
+            android:layout_centerVertical="true"
+            app:materialIcon="chevron_double_left"
+            app:materialIconColor="@color/white"
+            app:materialIconSize="24dp" />
+
+        <RelativeLayout
+            android:id="@+id/layout_end"
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentEnd="true"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/layout_seekBar"
+        android:layout_width="match_parent"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="20dp"
+        android:layout_above="@id/layout_btn_bot"
+        android:layout_height="100dp">
+
+        <TextView
+            android:id="@id/exo_position"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="6dp"
+            android:layout_marginStart="30dp"
+            android:layout_alignParentBottom="true"
+            android:includeFontPadding="false"
+            android:layout_alignParentStart="true"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            tools:text="18:20" />
+        <com.github.rubensousa.previewseekbar.exoplayer.PreviewTimeBar
+            android:id="@+id/previewTimebar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_toEndOf="@+id/exo_position"
+            android:layout_toStartOf="@+id/exo_duration"
+            android:layout_alignParentBottom="true"
+            app:previewFrameLayout="@id/previewFrameLayout" />
+
+        <TextView
+            android:id="@id/exo_duration"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="6dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:includeFontPadding="false"
+            android:layout_marginEnd="30dp"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            tools:text="25:23" />
+
+        <FrameLayout
+            android:id="@+id/previewFrameLayout"
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:padding="2dp"
+            android:visibility="visible"
+            tools:visibility="visible">
+
+            <ImageView
+                android:id="@+id/preImageView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitCenter"
+                android:contentDescription="preview video"/>
+
+        </FrameLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        android:background="@color/black1"
+        android:layout_alignParentBottom="true"
+        android:alpha="0.3"/>
+
+    <RelativeLayout
+        android:id="@+id/layout_btn_bot"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:layout_marginBottom="55dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_alignParentBottom="true">
+
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/btnPlayPause"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:backgroundTint="@color/transparent"
+            android:layout_centerInParent="true"
+            android:clickable="true"
+            android:scaleType="fitCenter"
+            android:tag="bg_tint_accent_color"
+            android:focusable="true"
+            app:borderWidth="2dp"
+            app:backgroundTint="@color/white"
+            app:elevation="0dp"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_toStartOf="@id/btnPlayPause"
+            android:layout_marginEnd="15dp"
+            android:baselineAligned="false">
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+                <net.steamcrafted.materialiconlib.MaterialIconView
+                    android:id="@+id/btnLock"
+                    android:layout_marginStart="5dp"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:layout_centerInParent="true"
+                    android:padding="10dp"
+                    app:materialIcon="lock"
+                    app:materialIconColor="@color/white"
+                    app:materialIconSize="20dp" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:id="@+id/layout_skip_pre_10s"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+                <net.steamcrafted.materialiconlib.MaterialIconView
+                    android:id="@+id/btn_skip_pre_10s"
+                    android:layout_marginStart="5dp"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_centerInParent="true"
+                    android:padding="10dp"
+                    app:materialIcon="skip_backward"
+                    app:materialIconColor="@color/white"
+                    app:materialIconSize="20dp" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+                <net.steamcrafted.materialiconlib.MaterialIconView
+                    android:id="@+id/btn_skip_pre"
+                    android:layout_marginStart="5dp"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:padding="10dp"
+                    android:layout_centerInParent="true"
+                    app:materialIcon="skip_previous"
+                    app:materialIconColor="@color/white"
+                    app:materialIconSize="30dp" />
+            </RelativeLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_toEndOf="@id/btnPlayPause"
+            android:layout_marginStart="15dp"
+            android:baselineAligned="false">
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+                <net.steamcrafted.materialiconlib.MaterialIconView
+                    android:id="@+id/btn_skip_next"
+                    android:layout_marginStart="5dp"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_centerInParent="true"
+                    android:padding="10dp"
+                    app:materialIcon="skip_next"
+                    app:materialIconColor="@color/white"
+                    app:materialIconSize="30dp" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:id="@+id/layout_skip_next_10s"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+                <net.steamcrafted.materialiconlib.MaterialIconView
+                    android:id="@+id/btn_skip_next_10s"
+                    android:layout_marginStart="5dp"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_centerInParent="true"
+                    android:padding="10dp"
+                    app:materialIcon="skip_forward"
+                    app:materialIconColor="@color/white"
+                    app:materialIconSize="20dp" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+                <net.steamcrafted.materialiconlib.MaterialIconView
+                    android:id="@+id/btnResize"
+                    android:layout_marginStart="5dp"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:layout_centerInParent="true"
+                    android:padding="10dp"
+                    app:materialIcon="arrow_expand_horizontal"
+                    app:materialIconColor="@color/white"
+                    app:materialIconSize="20dp" />
+            </RelativeLayout>
+        </LinearLayout>
+
+
+    </RelativeLayout>
+</RelativeLayout>

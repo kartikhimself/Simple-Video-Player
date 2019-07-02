@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:id="@+id/content_alarm"
+    android:layout_width="match_parent"
+    android:layout_height="330dp"
+    android:padding="16dp">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <net.steamcrafted.materialiconlib.MaterialIconView
+            android:id="@+id/ic_sleep"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentStart="true"
+            android:background="@color/transparent"
+            android:scaleType="center"
+            app:materialIcon="information"
+            app:materialIconColor="?attr/text_color"
+            app:materialIconSize="27dp" />
+        <TextView
+            android:id="@+id/txtVideoTitle"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:gravity="center|start"
+            android:layout_marginStart="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_toEndOf="@+id/ic_sleep" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+        <TextView
+            android:id="@+id/txtLocation"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text= "@string/file_location"/>
+        <TextView
+            android:id="@+id/txtLocation_value"
+            android:layout_toEndOf="@id/txtLocation"
+            android:layout_marginStart="20dp"
+            android:gravity="center"
+            android:textSize="15sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxLines="3"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+        <TextView
+            android:id="@+id/txtFormat"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text= "@string/format"/>
+        <TextView
+            android:id="@+id/txtFormat_value"
+            android:layout_toEndOf="@id/txtFormat"
+            android:layout_marginStart="20dp"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+        <TextView
+            android:id="@+id/txtFileSize"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text= "@string/file_size"/>
+        <TextView
+            android:id="@+id/txtFileSize_value"
+            android:layout_toEndOf="@id/txtFileSize"
+            android:layout_marginStart="20dp"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+        <TextView
+            android:id="@+id/txtDuration"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text= "@string/duration"/>
+        <TextView
+            android:id="@+id/txtDuration_value"
+            android:layout_toEndOf="@id/txtDuration"
+            android:layout_marginStart="20dp"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+        <TextView
+            android:id="@+id/txtResolution"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text= "@string/resolution"/>
+        <TextView
+            android:id="@+id/txResolution_value"
+            android:layout_toEndOf="@id/txtResolution"
+            android:layout_marginStart="20dp"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+        <TextView
+            android:id="@+id/txtDateAdded"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text= "@string/date_added"/>
+        <TextView
+            android:id="@+id/txtDateAdded_value"
+            android:layout_toEndOf="@id/txtDateAdded"
+            android:layout_marginStart="20dp"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+    </RelativeLayout>
+</LinearLayout>

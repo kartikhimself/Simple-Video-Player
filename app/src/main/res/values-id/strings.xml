@@ -1,0 +1,48 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Video Player Lite</string>
+
+    <string name="storage_permission_denied">Izin untuk mengakses penyimpanan ditolak!\n Kami tidak dapat memperoleh video Anda!</string>
+    <string name="action_settings">Pengaturan</string>
+    <string name="action_rename">Ganti nama</string>
+    <string name="action_delete">Menghapus</string>
+
+    <string name="action_info">Info</string>
+    <string name="action_play">Bermain</string>
+    <string name="action_play_popup">Mainkan Popup</string>
+    <string name="action_play_background">Audio Latar Belakang</string>
+    <string name="action_sort">Menyortir</string>
+    <string name="action_sort_AZ">A-Z</string>
+    <string name="action_sortZA">Z-A</string>
+    <string name="action_sort_size">ukuran</string>
+    <string name="action_sort_total_videos">Total Videos</string>
+    <string name="search_title">Pencarian</string>
+    <string name="action_view_by_list">Lihat berdasarkan daftar</string>
+    <string name="action_view_by_grid">Lihat berdasarkan kotak</string>
+    <string name="action_share">Bagikan</string>
+
+    <string name="folder">Map</string>
+    <string name="sleep_timer">Timer Tidur</string>
+    <string name="about">Tentang</string>
+
+    <string name="confirm_cancel">Membatalkan</string>
+    <string name="enter_new_name">Masukkan Nama Baru</string>
+    <string name="confirm_delete">Menghapus</string>
+    <string name="confirm">Anda yakin ingin menghapus </string>
+    <string name="delete_video">Hapus Video ?</string>
+    <string name="properties">Properti</string>
+    <string name="file_location">Lokasi</string>
+    <string name="format">Format</string>
+    <string name="file_size">ukuran</string>
+    <string name="duration">Lamanya</string>
+    <string name="resolution">Resolusi</string>
+    <string name="date_added">Tanggal</string>
+
+    <string name="video">Videos</string>
+    <string name="menu">Menu</string>
+    <string name="now_playing">Sedang dimainkan</string>
+    <string name="no_video_playing">Tidak ada video yang diputar</string>
+    <string name="fileNameExist">Nama file ini ada :(</string>
+    <string name="ThemeColor">Warna Tema</string>
+    <string name="txt_sleep_app">Ekstensi membantu mematikan musik, video diputar di perangkat Anda, bekerja dengan baik dengan Youtube, Spotify, Google Music dan semua musik, aplikasi video.
+</string>
+</resources>

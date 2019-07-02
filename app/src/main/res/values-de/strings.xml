@@ -1,0 +1,47 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Video Player Lite</string>
+
+    <string name="storage_permission_denied">Zugriff auf Speicher wurde verweigert!!\n Wir können Ihre Videos nicht abrufen!</string>
+    <string name="action_settings">die Einstellungen</string>
+    <string name="action_rename">Umbenennen</string>
+    <string name="action_delete">Löschen</string>
+
+    <string name="action_info">Info</string>
+    <string name="action_play">abspielen</string>
+    <string name="action_play_popup">Popup spielen</string>
+    <string name="action_play_background">Hintergrund-Audio</string>
+    <string name="action_sort">Sortieren</string>
+    <string name="action_sort_AZ">A-Z</string>
+    <string name="action_sortZA">Z-A</string>
+    <string name="action_sort_size">Größe</string>
+    <string name="action_sort_total_videos">Videos insgesamt</string>
+    <string name="search_title">Suche</string>
+    <string name="action_view_by_list">Nach Liste anzeigen</string>
+    <string name="action_view_by_grid">Ansicht nach Raster</string>
+    <string name="action_share">Aktie</string>
+
+    <string name="folder">Mappe</string>
+    <string name="sleep_timer">Sleep Timer</string>
+    <string name="about">About</string>
+
+    <string name="confirm_cancel">Stornieren</string>
+    <string name="enter_new_name">Neuen Namen eingeben</string>
+    <string name="confirm_delete">Löschen</string>
+    <string name="confirm">Sind Sie sicher, dass Sie löschen möchten </string>
+    <string name="delete_video">Video löschen? ?</string>
+    <string name="properties">Eigenschaften</string>
+    <string name="file_location">Ort</string>
+    <string name="format">Format</string>
+    <string name="file_size">Größe</string>
+    <string name="duration">Dauer</string>
+    <string name="resolution">Auflösung</string>
+    <string name="date_added">Datum</string>
+
+    <string name="video">Videos</string>
+    <string name="menu">Speisekarte</string>
+    <string name="now_playing">Läuft gerade</string>
+    <string name="no_video_playing">Es wird kein Video abgespielt</string>
+    <string name="fileNameExist">Dieser Dateiname existiert :(</string>
+    <string name="ThemeColor">Themenfarbe</string>
+    <string name="txt_sleep_app">Mithilfe einer Erweiterung können Sie Musik ausschalten, Videos auf Ihrem Gerät wiedergeben und Youtube, Spotify, Google Music sowie die gesamte Musik- und Video-App verwenden.</string>
+</resources>

@@ -1,0 +1,47 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Video Player Lite</string>
+
+    <string name="storage_permission_denied">Depolamaya erişim izni reddedildi!\n Videolarınızı alamıyoruz!</string>
+    <string name="action_settings">Ayarlar</string>
+    <string name="action_rename">Adını değiştirmek</string>
+    <string name="action_delete">silmek</string>
+
+    <string name="action_info">Bilgi</string>
+    <string name="action_play">Oyun</string>
+    <string name="action_play_popup">Pop-up oyna</string>
+    <string name="action_play_background">Arkaplan Sesi</string>
+    <string name="action_sort">Çeşit</string>
+    <string name="action_sort_AZ">A-Z</string>
+    <string name="action_sortZA">Z-A</string>
+    <string name="action_sort_size">boyut</string>
+    <string name="action_sort_total_videos">Toplam Videolar</string>
+    <string name="search_title">Arama</string>
+    <string name="action_view_by_list">Listeye göre görüntüle</string>
+    <string name="action_view_by_grid">Kılavuza göre görüntüle</string>
+    <string name="action_share">Pay</string>
+
+    <string name="folder">Klasör</string>
+    <string name="sleep_timer">Uyku Zamanlayıcısı</string>
+    <string name="about">hakkında</string>
+
+    <string name="confirm_cancel">İptal etmek</string>
+    <string name="enter_new_name">Yeni İsim Girin</string>
+    <string name="confirm_delete">silmek</string>
+    <string name="confirm">Silmek istediğine emin misin </string>
+    <string name="delete_video">Video Sil ?</string>
+    <string name="properties">Özellikleri</string>
+    <string name="file_location">yer</string>
+    <string name="format">Biçim</string>
+    <string name="file_size">boyut</string>
+    <string name="duration">süre</string>
+    <string name="resolution">çözüm</string>
+    <string name="date_added">tarih</string>
+
+    <string name="video">Videolar</string>
+    <string name="menu">Menü</string>
+    <string name="now_playing">Şimdi oynuyor</string>
+    <string name="no_video_playing">Video oynatılmıyor</string>
+    <string name="fileNameExist">Bu dosya adı var :(</string>
+    <string name="ThemeColor">Tema Rengi</string>
+    <string name="txt_sleep_app">Bir uzantı yardımı, müziğin kapatılması, videonun cihazınızda oynatılması, Youtube, Spotify, Google Müzik ve tüm müzikler, video uygulaması ile iyi çalışır.</string>
+</resources>

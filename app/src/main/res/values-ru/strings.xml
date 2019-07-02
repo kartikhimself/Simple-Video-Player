@@ -1,0 +1,48 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Видеоплеер</string>
+
+    <string name="storage_permission_denied">В доступе к хранилищу было отказано!\n Мы не можем получить ваши видео!</string>
+    <string name="action_settings">настройки</string>
+    <string name="action_rename">переименовывать</string>
+    <string name="action_delete">удалять</string>
+
+    <string name="action_info">Информация</string>
+    <string name="action_play">Играть</string>
+    <string name="action_play_popup">Играть Popup</string>
+    <string name="action_play_background">Фоновое аудио</string>
+    <string name="action_sort">Сортировать</string>
+    <string name="action_sort_AZ">A-Z</string>
+    <string name="action_sortZA">Z-A</string>
+    <string name="action_sort_size">размер</string>
+    <string name="action_sort_total_videos">Всего видео</string>
+    <string name="search_title">Поиск</string>
+    <string name="action_view_by_list">Просмотр по списку</string>
+    <string name="action_view_by_grid">Просмотр по сетке</string>
+    <string name="action_share">Поделиться</string>
+
+    <string name="folder">скоросшиватель</string>
+    <string name="sleep_timer">Таймер сна</string>
+    <string name="about">Около</string>
+
+    <string name="confirm_cancel">отменить</string>
+    <string name="enter_new_name">Введите новое имя</string>
+    <string name="confirm_delete">удалять</string>
+    <string name="confirm">Вы уверены, что хотите удалить </string>
+    <string name="delete_video">Удалить видео ?</string>
+    <string name="properties">свойства</string>
+    <string name="file_location">Место нахождения</string>
+    <string name="format">Формат</string>
+    <string name="file_size">размер</string>
+    <string name="duration">продолжительность</string>
+    <string name="resolution">разрешение</string>
+    <string name="date_added">Дата</string>
+
+    <string name="video">Видео</string>
+    <string name="menu">Меню</string>
+    <string name="now_playing">Сейчас играет</string>
+    <string name="no_video_playing">Видео не воспроизводится</string>
+    <string name="fileNameExist">Это имя файла существует :(</string>
+    <string name="ThemeColor">Цвет темы</string>
+    <string name="txt_sleep_app">Расширение помогает отключить музыку, видео воспроизводится на вашем устройстве, хорошо работает с Youtube, Spotify, Google Music и всей музыкой, видео приложением.
+</string>
+</resources>

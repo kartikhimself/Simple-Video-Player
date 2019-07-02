@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="?attr/background_color">
+
+    <RelativeLayout
+        android:id="@+id/layout_left"
+        android:layout_width="150dp"
+        android:layout_height="80dp"
+        android:layout_margin="1dp">
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:layout_margin="5dp"
+            tools:srcCompat="@tools:sample/avatars"
+            android:layout_alignParentStart="true"/>
+        <TextView
+            android:id="@+id/txtVideoDuration"
+            android:layout_width="wrap_content"
+            android:layout_height="18dp"
+            android:textColor="@color/white"
+            android:layout_marginBottom="3dp"
+            android:layout_marginEnd="8dp"
+            android:textSize="10sp"
+            android:textStyle="bold"
+            android:text="00:00"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_margin="1dp"
+        android:padding="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_toEndOf="@id/layout_left"
+        android:layout_toStartOf="@id/imageViewOption">
+        <TextView
+            android:id="@+id/txtVideoTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:layout_marginStart="3dp"
+            android:layout_marginBottom="3dp"
+            android:maxLines="2"
+            android:textColor="?attr/text_color"
+            android:text="You Belong With me that mean you alway belong with me"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:id="@+id/txtVideoPath"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="3dp"
+            android:layout_marginBottom="3dp"
+            android:singleLine="true"
+            android:textColor="?attr/text_color"
+            android:text="hello this is the path of the video"
+            android:textSize="12sp"
+            android:layout_below="@id/txtVideoTitle"
+            />
+
+
+
+
+    </RelativeLayout>
+
+    <com.sdcode.videoplayer.customizeUI.NonScrollImageView
+        android:id="@+id/imageViewOption"
+        android:layout_width="40dp"
+        android:layout_height="match_parent"
+        android:layout_marginEnd="5dp"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:padding="5dp"
+        app:materialIcon="dots_vertical"
+        app:materialIconColor="?attr/text_color"
+        app:materialIconSize="20dp"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0.1dp"
+        android:layout_alignParentBottom="true"
+        android:background="?attr/text_color"
+        android:alpha="0.1"/>
+
+
+
+</RelativeLayout>
